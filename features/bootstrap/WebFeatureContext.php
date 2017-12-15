@@ -10,4 +10,11 @@ use Behat\MinkExtension\Context\MinkContext;
 
 class WebFeatureContext extends MinkContext
 {
+    /**
+     * @Given With base url :baseUrl
+     */
+    public function withBaseUrl($baseUrl)
+    {
+        $this->setMinkParameter('base_url', $baseUrl);
+    }
 }

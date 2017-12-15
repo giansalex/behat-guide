@@ -7,5 +7,5 @@ default:
                 - WebFeatureContext
     extensions:
         Behat\MinkExtension:
-            base_url: "https://github.com"
+#            base_url: "https://github.com"
             goutte: ~
