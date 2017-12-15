@@ -4,3 +4,8 @@ default:
             contexts:
                 - FeatureContext:
                     - Awesome
+                - WebFeatureContext
+    extensions:
+        Behat\MinkExtension:
+            base_url: "https://github.com"
+            goutte: ~
